@@ -10,3 +10,9 @@ Java/Kotlin has a class named ***Thread*** which is used to execute some code of
 # Worker Thread
 When the thread is finished with its current task, instead of being destroyed, it waits until another task is available for execution. A ***Worker Thread***  is a queue of task. When the thread is finished with its current task if picks the next task from the queue & executes it. When the queue of tasks is empty then the thread keeps waiting until a task is available to execute.
 There are 3 different ways to implement a ***Worker Thread*** :-
+
+| Sr No. | Type |
+| :---         |     :---:      |
+| 1.   | Hancrafted Worker Thread     |
+| 2.     | Looper Worker Thread       |
+| 3.     | Handler Worker Thread       |
