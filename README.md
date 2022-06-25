@@ -5,4 +5,7 @@ Java/Kotlin has a class named ***Thread*** which is used to execute some code of
 >  - Create a new class of [***MyThread***](app/src/main/java/com/thread/thread/MyThread.kt) class & call its start method.
 
 ### NOTE ABOUT THREAD
-> After calling start the execution of thread strats. One important note about [***MyThread***](app/src/main/java/com/thread/thread/MyThread.kt) is that as soon as run is finished, the thread is destroyed.
+> After calling start the execution of thread starts. One important note about [***MyThread***](app/src/main/java/com/thread/thread/MyThread.kt) is that as soon as run is finished, the thread is destroyed.
+
+# Worker Thread
+When
